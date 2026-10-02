@@ -1,0 +1,501 @@
+order_id,customer_id,customer_name,city,state,product,category,quantity,unit_price,discount_percent,order_date,payment_mode,payment_status,order_status,rating
+1,C021,Arjun Rao,Chennai,Tamil Nadu,HP Laptop 15,Electronics,1,54999,5,2025-04-25,Credit Card,Paid,Delivered,5
+2,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,IKEA Study Lamp,Home & Kitchen,1,1299,10,2025-01-16,UPI,Refunded,Shipped,3
+3,C020,Riya Das,Bhubaneswar,Odisha,iPhone 15,Electronics,2,69999,15,2025-12-26,Cash on Delivery,Failed,Cancelled,3
+4,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Nike Running Shoes,Fashion,3,4999,0,2025-03-23,Wallet,Pending,Cancelled,4
+5,C005,Vikram Mehta,Ahmedabad,Gujarat,Boat Earbuds,Electronics,5,1999,10,2025-02-17,Net Banking,Paid,Delivered,4
+6,C012,Isha Kapoor,Bengaluru,Karnataka,American Tourister Bag,Travel,1,4999,0,2025-08-24,Cash on Delivery,Paid,Delivered,
+7,C013,Manish Patel,Surat,Gujarat,OnePlus 12,Electronics,2,59999,20,2025-11-13,Debit Card,Paid,Returned,3
+8,C003,Rahul Singh,Lucknow,Uttar Pradesh,Samsung Galaxy S24,Electronics,2,74999,20,2025-02-10,Credit Card,Pending,Delivered,4
+9,C015,Nitin Saini,Jaipur,Rajasthan,Safari Trolley,Travel,3,6499,5,2025-07-01,Credit Card,,Processing,5
+10,C022,Simran Kaur,Amritsar,Punjab,Safari Trolley,Travel,1,6499,15,2025-10-01,Wallet,Refunded,Shipped,3
+11,C013,Manish Patel,Surat,Gujarat,Nike Running Shoes,Fashion,0,4999,15,2025-10-13,Credit Card,Pending,Processing,5
+12,C025,Yash Shah,Vadodara,Gujarat,Samsung Galaxy S24,Electronics,1,74999,0,2025-06-11,Net Banking,Pending,Processing,2
+13,C030,Divya Iyer,Coimbatore,Tamil Nadu,Wakefit Pillow,Home & Kitchen,4,999,5,2025-12-02,Net Banking,Paid,Cancelled,5
+14,C021,Arjun Rao,Chennai,Tamil Nadu,Prestige Mixer,Home & Kitchen,1,3499,5,2025-10-15,Cash on Delivery,Paid,Processing,5
+15,C014,Kavya Reddy,Hyderabad,Telangana,Wakefit Pillow,Home & Kitchen,1,999,5,2025-03-12,Cash on Delivery,Paid,Cancelled,2
+16,C002,Priya Verma,Delhi,Delhi,HP Laptop 15,Electronics,1,54999,5,2025-12-15,Net Banking,Failed,Returned,2
+17,C013,Manish Patel,Surat,Gujarat,American Tourister Bag,Travel,-1,4999,10,2025-10-11,UPI,Failed,Delivered,5
+18,C018,Tanya Roy,Kolkata,West Bengal,Nike Running Shoes,Fashion,3,4999,10,2025-05-31,Net Banking,Paid,Shipped,4
+19,C024,Nisha Thakur,Dehradun,Uttarakhand,Nike Running Shoes,Fashion,0,4999,20,2025-09-17,UPI,Refunded,Processing,5
+20,C017,Sahil Khan,Bhopal,Madhya Pradesh,American Tourister Bag,Travel,1,4999,10,2025-03-24,Cash on Delivery,Pending,Returned,5
+21,C020,Riya Das,Bhubaneswar,Odisha,Levi's Jeans,Fashion,2,3499,0,2025-07-05,Debit Card,Pending,Shipped,2
+22,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Wakefit Pillow,Home & Kitchen,5,999,0,2025-09-06,UPI,Paid,Returned,5
+23,C005,Vikram Mehta,Ahmedabad,Gujarat,Wildcraft Duffle Bag,Travel,2,2999,10,2025-05-16,Cash on Delivery,Paid,Returned,4
+24,C007,Rohan Yadav,Gurugram,Haryana,IKEA Study Lamp,Home & Kitchen,3,1299,15,2025-06-09,Net Banking,Failed,Processing,4
+25,C017,Sahil Khan,Bhopal,Madhya Pradesh,Prestige Mixer,Home & Kitchen,1,3499,5,2025-06-23,UPI,Paid,Returned,4
+26,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Mi Smart TV,Electronics,1,32999,15,2025-01-31,Credit Card,,Delivered,5
+27,C028,Sakshi Rawat,Jaipur,Rajasthan,Levi's Jeans,Fashion,1,3499,5,2025-12-09,Net Banking,Pending,Shipped,4
+28,C024,Nisha Thakur,Dehradun,Uttarakhand,Wakefit Pillow,Home & Kitchen,2,999,5,2025-08-31,Net Banking,Paid,Shipped,2
+29,C022,Simran Kaur,Amritsar,Punjab,Cotton Kurti,Fashion,1,1499,10,2025-01-28,Wallet,Paid,Delivered,2
+30,C024,Nisha Thakur,Dehradun,Uttarakhand,Levi's Jeans,Fashion,3,3499,0,2025-04-09,Credit Card,Paid,Returned,4
+31,C014,Kavya Reddy,Hyderabad,Telangana,Sony Headphones,Electronics,1,7999,5,2025-02-08,Net Banking,Paid,Returned,2
+32,C021,Arjun Rao,Chennai,Tamil Nadu,IKEA Study Lamp,Home & Kitchen,3,1299,55,2025-05-02,Credit Card,Paid,Cancelled,4
+33,C007,Rohan Yadav,Gurugram,Haryana,Woodland Shoes,Fashion,4,5999,5,2025-01-02,Net Banking,Pending,Processing,
+34,C026,Komal Gupta,Nagpur,Maharashtra,Prestige Mixer,Home & Kitchen,1,3499,15,2025-10-12,Wallet,Refunded,Cancelled,3
+35,C010,Pooja Jain,Indore,Madhya Pradesh,Boat Earbuds,Electronics,5,1999,15,2025-10-05,UPI,Paid,Processing,2
+36,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Philips Air Fryer,Home & Kitchen,2,6999,20,2025-03-22,UPI,Paid,Returned,2
+37,C006,Neha Joshi,Pune,Maharashtra,OnePlus 12,electronics,2,59999,15,2025-05-01,Net Banking,Paid,Delivered,
+38,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Mi Smart TV,Electronics,2,32999,0,2025-02-11,Net Banking,Pending,Returned,4
+39,C011,Karan Malhotra,Chandigarh,Chandigarh,Nike Running Shoes,Fashion,1,4999,15,2025-05-03,Debit Card,Refunded,Cancelled,3
+40,C021,Arjun Rao,Chennai,Tamil Nadu,Adidas T-Shirt,Fashion,2,1999,25,2025-02-07,UPI,Paid,Cancelled,5
+41,C019,Deepak Mishra,Varanasi,Uttar Pradesh,HP Laptop 15,Electronics,1,54999,5,2025-05-16,Credit Card,Pending,Processing,5
+42,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Mi Smart TV,Electronics,1,32999,5,2025-10-06,Wallet,Pending,Processing,5
+43,C026,Komal Gupta,Nagpur,Maharashtra,Safari Trolley,Travel,2,6499,15,2025-10-11,Debit Card,Paid,Delivered,
+44,C005,Vikram Mehta,Ahmedabad,Gujarat,Nike Running Shoes,Fashion,1,4999,0,2025-10-11,Credit Card,Paid,Processing,3
+45,C007,Rohan Yadav,Gurugram,Haryana,Levi's Jeans,Fashion,1,3499,15,2025-05-16,Cash on Delivery,Paid,Cancelled,3
+46,C030,Divya Iyer,Coimbatore,Tamil Nadu,Samsung Galaxy S24,Electronics,1,74999,10,2025-05-22,UPI,,Delivered,4
+47,C005,Vikram Mehta,Ahmedabad,Gujarat,Safari Trolley,Travel,0,6499,5,2025-08-15,Cash on Delivery,Pending,Cancelled,4
+48,C004,Ananya Gupta,Mumbai,Maharashtra,OnePlus 12,Electronics,5,59999,15,2025-03-18,Cash on Delivery,Refunded,Delivered,5
+49,C019,Deepak Mishra,Varanasi,Uttar Pradesh,IKEA Study Lamp,Home & Kitchen,1,1299,0,2025-06-07,Debit Card,Paid,Delivered,5
+50,C007,Rohan Yadav,Gurugram,Haryana,Wildcraft Duffle Bag,Travel,1,2999,0,2025-10-14,Net Banking,,Returned,5
+51,C030,Divya Iyer,Coimbatore,Tamil Nadu,Mi Smart TV,Electronics,4,32999,55,2025-04-01,Net Banking,Refunded,Delivered,3
+52,C030,Divya Iyer,Coimbatore,Tamil Nadu,Levi's Jeans,Fashion,3,3499,10,2025-12-09,Wallet,Paid,Shipped,3
+53,C026,Komal Gupta,Nagpur,Maharashtra,HP Laptop 15,Electronics,1,54999,0,2025-08-29,Credit Card,Paid,Shipped,5
+54,C015,Nitin Saini,Jaipur,Rajasthan,Puma Backpack,Fashion,1,2499,20,2025-04-27,Credit Card,Failed,Delivered,5
+55,C013,Manish Patel,Surat,Gujarat,Levi's Jeans,Fashion,1,3499,0,2025-05-23,Debit Card,Refunded,Returned,4
+56,C027,Aditya Bose,Kolkata,West Bengal,IKEA Study Lamp,Home & Kitchen,1,1299,0,2025-05-14,Credit Card,Failed,Returned,
+57,C009,Amit Kumar,Patna,Bihar,Samsung Galaxy S24,Electronics,1,74999,10,2025-06-10,Net Banking,Failed,Returned,6
+58,C004,Ananya Gupta,,Maharashtra,Woodland Shoes,Fashion,4,5999,5,2025-01-23,Wallet,Pending,Cancelled,1
+59,C030,Divya Iyer,Coimbatore,Tamil Nadu,IKEA Study Lamp,Home & Kitchen,2,1299,30,2025-12-10,Credit Card,Pending,Processing,4
+60,C022,Simran Kaur,Amritsar,Punjab,Levi's Jeans,Fashion,2,3499,15,2025-03-05,Wallet,Pending,Processing,4
+61,C022,Simran Kaur,Amritsar,Punjab,Cotton Kurti,Fashion,1,1499,15,2025-10-11,Credit Card,Pending,Shipped,4
+62,C013,Manish Patel,Surat,Gujarat,Wildcraft Duffle Bag,Travel,3,2999,5,2025-10-19,Debit Card,Pending,Cancelled,4
+63,C001,Aarav Sharma,Jaipur,Rajasthan,Adidas T-Shirt,Fashion,1,1999,10,2025-10-24,Cash on Delivery,,Processing,4
+64,C015,Nitin Saini,Jaipur,Rajasthan,Wildcraft Duffle Bag,Travel,1,2999,10,2025-03-28,Wallet,Paid,Delivered,3
+65,C022,Simran Kaur,Amritsar,Punjab,Safari Trolley,Travel,2,6499,0,2025-05-01,Wallet,Paid,Processing,3
+66,C007,Rohan Yadav,Gurugram,Haryana,Dell Inspiron,Electronics,1,62999,5,2025-09-01,Cash on Delivery,Paid,Delivered,4
+67,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Safari Trolley,Travel,2,6499,15,2025-07-16,Net Banking,Paid,Cancelled,3
+68,C021,Arjun Rao,Chennai,Tamil Nadu,iPhone 15,Electronics,4,69999,20,2025-02-24,Net Banking,Pending,Shipped,3
+69,C023,Mohit Bansal,Noida,Uttar Pradesh,Milton Water Bottle,Home & Kitchen,2,899,15,2025-03-04,Net Banking,Pending,Shipped,5
+70,C022,Simran Kaur,Amritsar,Punjab,Milton Water Bottle,Home & Kitchen,0,899,15,2025-08-15,Cash on Delivery,Paid,Returned,4
+71,C030,Divya Iyer,Coimbatore,Tamil Nadu,IKEA Study Lamp,Home & Kitchen,2,1299,5,2025-09-01,Net Banking,Pending,Processing,5
+72,C027,Aditya Bose,Kolkata,West Bengal,Safari Trolley,Travel,1,6499,20,2025-09-06,Wallet,Paid,Shipped,3
+73,C003,Rahul Singh,Lucknow,Uttar Pradesh,Adidas T-Shirt,Fashion,1,1999,10,2025-10-04,UPI,Paid,Shipped,3
+74,C013,Manish Patel,Surat,Gujarat,Dell Inspiron,Electronics,3,62999,0,2025-07-28,Debit Card,Failed,Returned,4
+75,C002,Priya Verma,Delhi,Delhi,Boat Earbuds,Electronics,3,1999,10,2025-10-27,Wallet,Refunded,Delivered,5
+76,C025,Yash Shah,Vadodara,Gujarat,Wakefit Pillow,Home & Kitchen,1,999,0,2025-06-30,debit card,Pending,Cancelled,5
+77,C027,Aditya Bose,Kolkata,West Bengal,Cotton Kurti,Fashion,2,1499,15,2025-11-05,Credit Card,Paid,Cancelled,3
+78,C014,Kavya Reddy,Hyderabad,Telangana,Philips Air Fryer,Home & Kitchen,1,6999,10,2025-12-14,Net Banking,Refunded,Shipped,5
+79,C030,Divya Iyer,Coimbatore,Tamil Nadu,Dell Inspiron,Electronics,0,62999,10,2025-07-21,Cash on Delivery,Refunded,Returned,5
+80,C003,Rahul Singh,Lucknow,Uttar Pradesh,Safari Trolley,Travel,2,6499,20,2025-04-04,UPI,Refunded,Processing,4
+81,C007,Rohan Yadav,Gurugram,Haryana,Prestige Mixer,Home & Kitchen,1,3499,20,2025-07-14,Debit Card,Paid,Cancelled,3
+82,C003,Rahul Singh,Lucknow,Uttar Pradesh,Philips Air Fryer,Home & Kitchen,1,6999,10,2025-06-29,Credit Card,Paid,Delivered,5
+83,C021,Arjun Rao,Chennai,Tamil Nadu,Samsung Galaxy S24,Electronics,3,74999,30,2025-04-13,UPI,Paid,Returned,3
+84,C005,Vikram Mehta,Ahmedabad,Gujarat,Philips Air Fryer,Home & Kitchen,2,6999,15,2025-04-22,Net Banking,Paid,Processing,5
+85,C006,Neha Joshi,Pune,Maharashtra,American Tourister Bag,Travel,2,4999,20,2025-02-28,Credit Card,Failed,Processing,2
+86,C001,Aarav Sharma,Jaipur,Rajasthan,Adidas T-Shirt,Fashion,2,1999,25,2025-07-12,Net Banking,Failed,Shipped,2
+87,C023,Mohit Bansal,Noida,Uttar Pradesh,Safari Trolley,Travel,1,6499,15,2025-06-04,Wallet,Paid,Returned,5
+88,C026,Komal Gupta,Nagpur,Maharashtra,Wakefit Pillow,Home & Kitchen,3,999,10,2025-08-08,Wallet,Pending,Processing,2
+89,C021,Arjun Rao,Chennai,Tamil Nadu,Levi's Jeans,Fashion,1,3499,10,2025-09-08,UPI,Paid,Cancelled,
+90,C021,Arjun Rao,Chennai,Tamil Nadu,Prestige Mixer,Home & Kitchen,3,3499,10,2025-09-25,Wallet,Paid,Processing,5
+91,C030,Divya Iyer,Coimbatore,Tamil Nadu,IKEA Study Lamp,Home & Kitchen,3,1299,10,2025-10-31,Debit Card,Paid,Processing,5
+92,C027,Aditya Bose,Kolkata,West Bengal,OnePlus 12,Electronics,1,59999,10,2025-08-26,Cash on Delivery,Failed,Returned,5
+93,C011,Karan Malhotra,Chandigarh,Chandigarh,iPhone 15,Electronics,2,69999,10,2025-09-07,Credit Card,Paid,Processing,5
+94,C011,Karan Malhotra,Chandigarh,Chandigarh,Nike Running Shoes,Fashion,4,4999,15,2025-05-22,Cash on Delivery,Failed,Delivered,4
+95,C007,Rohan Yadav,Gurugram,Haryana,OnePlus 12,Electronics,1,59999,10,2025-10-12,Credit Card,Paid,Cancelled,5
+96,C016,Meera Nair,Kochi,Kerala,Prestige Mixer,Home & Kitchen,3,3499,0,2025-04-24,Net Banking,Paid,Shipped,4
+97,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Puma Backpack,Fashion,2,2499,10,2025-08-06,Wallet,Paid,Returned,4
+98,C023,Mohit Bansal,Noida,Uttar Pradesh,Prestige Mixer,Home & Kitchen,1,3499,5,2025-03-03,Wallet,Refunded,Shipped,4
+99,C024,Nisha Thakur,Dehradun,Uttarakhand,IKEA Study Lamp,Home & Kitchen,5,1299,15,2025-04-09,Credit Card,Paid,Cancelled,3
+99,C024,Nisha Thakur,Dehradun,Uttarakhand,IKEA Study Lamp,Home & Kitchen,5,1299,15,2025-04-09,Credit Card,Paid,Cancelled,3
+101,C010,Pooja Jain,Indore,Madhya Pradesh,iPhone 15,Electronics,3,69999,0,2025-01-24,UPI,Pending,Returned,4
+102,C005,Vikram Mehta,Ahmedabad,Gujarat,Safari Trolley,Travel,4,6499,10,2025-01-07,Cash on Delivery,Refunded,Processing,4
+103,C015,Nitin Saini,Jaipur,Rajasthan,Levi's Jeans,Fashion,1,3499,0,2025-09-02,UPI,Paid,Delivered,4
+104,C003,Rahul Singh,Lucknow,Uttar Pradesh,Wakefit Pillow,Home & Kitchen,2,999,0,2025-03-18,Cash on Delivery,Refunded,Processing,2
+105,C008,Sneha Agarwal,Kolkata,West Bengal,HP Laptop 15,Electronics,2,54999,10,2025-11-02,Cash on Delivery,Paid,Shipped,5
+106,C013,Manish Patel,Surat,Gujarat,Prestige Mixer,Home & Kitchen,4,3499,5,2025-10-29,Net Banking,Refunded,Processing,4
+107,C002,Priya Verma,Delhi,Delhi,American Tourister Bag,Travel,5,4999,0,2025-04-17,Wallet,Paid,Shipped,3
+108,C003,Rahul Singh,Lucknow,Uttar Pradesh,Sony Headphones,Electronics,1,7999,10,2025-03-22,UPI,Paid,Cancelled,4
+109,C020,Riya Das,Bhubaneswar,Odisha,Philips Air Fryer,Home & Kitchen,1,6999,5,2025-12-28,,Paid,Cancelled,2
+110,C008,Sneha Agarwal,Kolkata,West Bengal,Nike Running Shoes,Fashion,3,4999,15,2025-12-05,Credit Card,Refunded,Cancelled,2
+111,C008,Sneha Agarwal,Kolkata,West Bengal,Safari Trolley,Travel,1,6499,5,2025-03-14,UPI,Paid,Delivered,3
+112,C010,Pooja Jain,Indore,Madhya Pradesh,American Tourister Bag,Travel,3,4999,15,2025-05-28,Net Banking,Paid,Delivered,4
+113,C010,Pooja Jain,Indore,Madhya Pradesh,Woodland Shoes,Fashion,5,5999,10,2025-09-10,Net Banking,Paid,Delivered,5
+114,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Cotton Kurti,Fashion,3,1499,15,2025-01-14,UPI,Pending,Shipped,
+115,C027,Aditya Bose,Kolkata,West Bengal,Wakefit Pillow,Home & Kitchen,2,999,0,2025-12-11,Debit Card,Refunded,Returned,1
+116,C025,Yash Shah,Vadodara,Gujarat,Sony Headphones,Electronics,2,7999,15,2025-05-23,Credit Card,Paid,Returned,4
+117,C027,Aditya Bose,Kolkata,West Bengal,Philips Air Fryer,Home & Kitchen,5,6999,10,2025-07-29,Debit Card,Paid,Processing,5
+118,C028,Sakshi Rawat,Jaipur,Rajasthan,Sony Headphones,Electronics,1,7999,15,2025-05-28,Wallet,Pending,Cancelled,5
+119,C018,Tanya Roy,Kolkata,West Bengal,Samsung Galaxy S24,Electronics,2,74999,5,2025-06-15,UPI,Failed,Cancelled,5
+120,C027,Aditya Bose,Kolkata,West Bengal,iPhone 15,Electronics,2,69999,10,2025-07-31,UPI,Paid,Shipped,4
+121,C020,Riya Das,Bhubaneswar,Odisha,Philips Air Fryer,Home & Kitchen,2,6999,20,2025-04-15,Debit Card,Pending,Returned,3
+122,C010,Pooja Jain,Indore,Madhya Pradesh,Prestige Mixer,Home & Kitchen,4,3499,10,2025-01-15,Wallet,Paid,Returned,5
+123,C023,Mohit Bansal,Noida,Uttar Pradesh,Sony Headphones,Electronics,1,7999,0,2025-07-28,UPI,Pending,Shipped,0
+124,C030,Divya Iyer,Coimbatore,Tamil Nadu,HP Laptop 15,Electronics,2,54999,0,2025-03-20,Net Banking,Paid,Processing,4
+125,C009,Amit Kumar,Patna,Bihar,Cotton Kurti,Fashion,3,1499,-5,2025-05-05,Net Banking,Paid,Returned,3
+126,C007,Rohan Yadav,Gurugram,Haryana,American Tourister Bag,Travel,2,4999,25,2025-02-05,Debit Card,Failed,Cancelled,4
+127,C026,Komal Gupta,Nagpur,Maharashtra,Milton Water Bottle,Home & Kitchen,1,899,0,2025-06-02,Cash on Delivery,Paid,Returned,0
+128,C016,Meera Nair,Kochi,Kerala,Dell Inspiron,Electronics,2,62999,10,2025-06-20,Cash on Delivery,Failed,Returned,4
+129,C030,Divya Iyer,Coimbatore,Tamil Nadu,Levi's Jeans,Fashion,4,3499,-5,2025-05-03,Cash on Delivery,Paid,Cancelled,
+130,C025,Yash Shah,Vadodara,Gujarat,Cotton Kurti,Fashion,1,1499,20,2025-12-28,Net Banking,Failed,Cancelled,6
+131,C026,Komal Gupta,Nagpur,Maharashtra,Safari Trolley,Travel,0,6499,10,2025-01-19,Credit Card,Paid,Returned,
+132,C011,Karan Malhotra,Chandigarh,Chandigarh,HP Laptop 15,Electronics,4,54999,10,2025-09-27,Net Banking,Pending,Delivered,5
+133,C014,Kavya Reddy,Hyderabad,Telangana,Safari Trolley,Travel,5,6499,0,2025-05-16,Debit Card,Pending,Returned,5
+134,C021,Arjun Rao,Chennai,Tamil Nadu,OnePlus 12,Electronics,4,59999,20,2025-10-01,Net Banking,Paid,Processing,5
+135,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Philips Air Fryer,Home & Kitchen,4,6999,0,2025-02-05,Credit Card,,Processing,0
+136,C024,Nisha Thakur,Dehradun,Uttarakhand,OnePlus 12,Electronics,2,59999,0,2025-11-21,Wallet,Paid,Delivered,4
+137,C023,Mohit Bansal,Noida,Uttar Pradesh,Adidas T-Shirt,Fashion,4,1999,0,2025-01-29,Debit Card,Paid,Processing,4
+138,C005,Vikram Mehta,Ahmedabad,Gujarat,Mi Smart TV,Electronics,2,32999,15,2025-04-03,Credit Card,Paid,Shipped,2
+139,C028,Sakshi Rawat,Jaipur,Rajasthan,Woodland Shoes,Fashion,2,5999,5,2025-10-26,Credit Card,Paid,Shipped,4
+140,C009,Amit Kumar,Patna,Bihar,Prestige Mixer,Home & Kitchen,1,3499,0,2025-08-27,Debit Card,Paid,Returned,3
+141,C015,Nitin Saini,Jaipur,Rajasthan,Puma Backpack,Fashion,0,2499,5,2025-08-06,Wallet,Paid,Processing,4
+142,C010,Pooja Jain,Indore,Madhya Pradesh,Boat Earbuds,Electronics,-1,1999,20,2025-02-24,Credit Card,Refunded,Cancelled,4
+143,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Adidas T-Shirt,Fashion,-1,1999,5,2025-12-04,Net Banking,Paid,PROCESSING,1
+144,C028,Sakshi Rawat,Jaipur,Rajasthan,Wildcraft Duffle Bag,Travel,3,2999,55,2025-11-07,Wallet,Pending,Cancelled,5
+145,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Adidas T-Shirt,Fashion,3,1999,5,2025-06-30,Credit Card,Pending,Shipped,5
+146,C022,Simran Kaur,Amritsar,Punjab,Wildcraft Duffle Bag,Travel,2,2999,5,2025-02-19,Wallet,Paid,Delivered,4
+147,C015,Nitin Saini,Jaipur,Rajasthan,Samsung Galaxy S24,Electronics,2,74999,15,2025-02-16,Debit Card,Pending,Processing,5
+148,C006,Neha Joshi,Pune,Maharashtra,Boat Earbuds,Electronics,1,1999,10,2025-07-07,Cash on Delivery,Paid,Returned,5
+149,C027,Aditya Bose,Kolkata,West Bengal,Sony Headphones,Electronics,1,7999,20,2025-09-04,Debit Card,Paid,Processing,5
+150,C015,Nitin Saini,Jaipur,Rajasthan,OnePlus 12,Electronics,1,59999,30,2025-12-13,Wallet,Paid,Cancelled,
+151,C026,Komal Gupta,Nagpur,Maharashtra,IKEA Study Lamp,Home & Kitchen,1,1299,20,2025-01-08,Debit Card,Pending,Returned,3
+152,C012,Isha Kapoor,Bengaluru,Karnataka,Wildcraft Duffle Bag,Travel,3,2999,5,2025-07-15,Wallet,Paid,Processing,2
+153,C008,Sneha Agarwal,Kolkata,West Bengal,Philips Air Fryer,Home & Kitchen,1,6999,25,2025-10-15,Debit Card,Refunded,Returned,3
+154,C003,Rahul Singh,Lucknow,Uttar Pradesh,Safari Trolley,Travel,3,6499,25,2025-06-04,Wallet,Paid,Cancelled,2
+155,C002,Priya Verma,Delhi,Delhi,Samsung Galaxy S24,Electronics,1,74999,10,2025-02-19,Credit Card,Paid,Returned,3
+156,C015,Nitin Saini,Jaipur,Rajasthan,Puma Backpack,Fashion,2,2499,15,2025-10-04,Net Banking,Pending,Returned,5
+157,C005,Vikram Mehta,Ahmedabad,Gujarat,Cotton Kurti,Fashion,2,1499,20,2025-11-12,Net Banking,Pending,Processing,1
+158,C012,Isha Kapoor,Bengaluru,Karnataka,Boat Earbuds,Electronics,2,1999,30,2025-07-05,UPI,Paid,Processing,4
+159,C021,Arjun Rao,Chennai,Tamil Nadu,Puma Backpack,Fashion,1,2499,5,2025-03-04,Net Banking,Refunded,Delivered,5
+160,C021,Arjun Rao,Chennai,Tamil Nadu,Safari Trolley,Travel,2,6499,0,2025-06-20,Credit Card,,Shipped,5
+161,C007,Rohan Yadav,Gurugram,Haryana,OnePlus 12,Electronics,3,59999,15,2025-10-28,Credit Card,Paid,Shipped,4
+162,C005,Vikram Mehta,Ahmedabad,Gujarat,American Tourister Bag,Travel,1,4999,20,2025-03-16,Credit Card,Refunded,Returned,3
+163,C006,Neha Joshi,Pune,Maharashtra,HP Laptop 15,Electronics,2,54999,0,2025-01-08,Debit Card,Paid,Shipped,4
+164,C001,Aarav Sharma,Jaipur,Rajasthan,Sony Headphones,Electronics,1,7999,0,2025-08-04,Cash on Delivery,Paid,Delivered,5
+165,C016,Meera Nair,Kochi,Kerala,Prestige Mixer,Home & Kitchen,3,3499,10,2025-02-25,Net Banking,Refunded,Returned,3
+166,C020,Riya Das,Bhubaneswar,Odisha,Samsung Galaxy S24,Electronics,3,74999,25,2025-12-04,Cash on Delivery,Refunded,Processing,4
+167,C001,Aarav Sharma,Jaipur,Rajasthan,Samsung Galaxy S24,Electronics,-1,74999,20,2025-08-07,Wallet,Paid,Delivered,4
+168,C030,Divya Iyer,Coimbatore,Tamil Nadu,Prestige Mixer,Home & Kitchen,1,3499,0,2025-11-08,Credit Card,Paid,Delivered,3
+169,C020,Riya Das,Bhubaneswar,Odisha,Safari Trolley,Travel,2,6499,15,2025-07-15,Cash on Delivery,Pending,Returned,4
+170,C017,Sahil Khan,Bhopal,Madhya Pradesh,American Tourister Bag,Travel,2,4999,20,2025-02-28,Wallet,Paid,Returned,5
+171,C007,Rohan Yadav,Gurugram,Haryana,Cotton Kurti,Fashion,2,1499,5,2025-06-23,Net Banking,Failed,Cancelled,4
+172,C004,Ananya Gupta,Mumbai,Maharashtra,Levi's Jeans,Fashion,2,3499,15,2025-07-11,Credit Card,Pending,Cancelled,2
+173,C027,Aditya Bose,Kolkata,West Bengal,OnePlus 12,Electronics,1,59999,0,2025-07-10,Credit Card,Paid,Returned,2
+174,C018,Tanya Roy,Kolkata,West Bengal,IKEA Study Lamp,Home & Kitchen,1,1299,0,2025-07-01,Wallet,Paid,Cancelled,5
+175,C024,Nisha Thakur,Dehradun,Uttarakhand,Samsung Galaxy S24,Electronics,5,74999,15,2025-06-30,UPI,Pending,Returned,4
+176,C005,Vikram Mehta,Ahmedabad,Gujarat,Wildcraft Duffle Bag,Travel,2,2999,20,2025-06-29,Cash on Delivery,Paid,Processing,2
+177,C009,Amit Kumar,Patna,Bihar,Wakefit Pillow,Home & Kitchen,1,999,10,2025-10-15,Cash on Delivery,Refunded,Returned,5
+178,C018,Tanya Roy,Kolkata,West Bengal,iPhone 15,Electronics,2,69999,15,2025-12-22,Debit Card,Paid,Delivered,3
+179,C023,Mohit Bansal,Noida,Uttar Pradesh,Adidas T-Shirt,Fashion,4,1999,10,2025-04-03,Credit Card,Paid,Returned,5
+180,C003,Rahul Singh,Lucknow,Uttar Pradesh,Dell Inspiron,Electronics,3,62999,55,2025-02-16,Wallet,Paid,Returned,3
+181,C014,Kavya Reddy,Hyderabad,Telangana,Prestige Mixer,Home & Kitchen,1,3499,10,2025-06-16,Cash on Delivery,,Returned,2
+182,C002,Priya Verma,Delhi,Delhi,Dell Inspiron,Electronics,1,62999,15,2025-12-12,UPI,Pending,Processing,4
+183,C014,Kavya Reddy,Hyderabad,Telangana,Philips Air Fryer,Home & Kitchen,2,6999,10,2025-04-21,Cash on Delivery,Pending,Delivered,4
+184,C004,Ananya Gupta,Mumbai,Maharashtra,Adidas T-Shirt,fashion,2,1999,15,2025-09-27,Wallet,Paid,Processing,2
+185,C013,Manish Patel,Surat,Gujarat,American Tourister Bag,Travel,1,4999,5,2025-04-19,Credit Card,Pending,Processing,4
+186,C004,Ananya Gupta,Mumbai,Maharashtra,iPhone 15,Electronics,2,69999,10,2025-03-08,Net Banking,Paid,Returned,5
+187,C017,Sahil Khan,Bhopal,Madhya Pradesh,IKEA Study Lamp,Home & Kitchen,3,1299,20,2025-02-06,Net Banking,Paid,Delivered,4
+188,C015,Nitin Saini,Jaipur,Rajasthan,OnePlus 12,Electronics,4,59999,15,2025-10-21,Net Banking,Paid,Cancelled,4
+189,C013,Manish Patel,Surat,Gujarat,iPhone 15,Electronics,5,69999,5,2025-11-13,Net Banking,Paid,Processing,2
+190,C028,Sakshi Rawat,Jaipur,Rajasthan,HP Laptop 15,Electronics,1,54999,15,2025-09-26,UPI,Paid,Cancelled,5
+191,C024,Nisha Thakur,Dehradun,Uttarakhand,Levi's Jeans,Fashion,1,3499,20,2025-02-09,Cash on Delivery,Pending,Delivered,4
+192,C007,Rohan Yadav,Gurugram,Haryana,Puma Backpack,Fashion,1,2499,30,2025-11-27,Credit Card,Pending,Shipped,2
+193,C009,Amit Kumar,Patna,Bihar,Boat Earbuds,Electronics,1,1999,5,2025-12-02,UPI,Paid,Shipped,
+194,C021,Arjun Rao,Chennai,Tamil Nadu,Philips Air Fryer,Home & Kitchen,2,6999,15,2025-10-24,Net Banking,Pending,Returned,5
+195,C020,Riya Das,Bhubaneswar,Odisha,Levi's Jeans,Fashion,4,3499,15,2025-03-19,Net Banking,Pending,Delivered,4
+196,C021,Arjun Rao,Chennai,Tamil Nadu,Adidas T-Shirt,Fashion,3,1999,15,2025-06-30,Cash on Delivery,Paid,Delivered,4
+197,C015,Nitin Saini,Jaipur,Rajasthan,Samsung Galaxy S24,Electronics,1,74999,20,2025-02-09,Wallet,Pending,Delivered,5
+198,C017,Sahil Khan,Bhopal,Madhya Pradesh,Woodland Shoes,Fashion,2,5999,15,2025-01-22,Net Banking,Paid,Returned,5
+199,C011,Karan Malhotra,Chandigarh,Chandigarh,American Tourister Bag,Travel,2,4999,5,2025-02-01,Net Banking,Refunded,Delivered,5
+200,C027,Aditya Bose,Kolkata,West Bengal,Levi's Jeans,Fashion,0,3499,0,2025-11-27,Credit Card,Paid,Delivered,3
+201,C015,Nitin Saini,Jaipur,Rajasthan,Prestige Mixer,Home & Kitchen,2,3499,15,2025-07-06,Debit Card,Pending,Processing,4
+202,C025,Yash Shah,Vadodara,Gujarat,Levi's Jeans,Fashion,2,3499,0,2025-11-20,Wallet,Paid,Processing,2
+203,C004,Ananya Gupta,Mumbai,Maharashtra,IKEA Study Lamp,Home & Kitchen,2,1299,5,2025-12-03,Cash on Delivery,Paid,Shipped,4
+204,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Wildcraft Duffle Bag,Travel,1,2999,10,2025-12-02,Wallet,Paid,Cancelled,3
+205,C023,Mohit Bansal,Noida,Uttar Pradesh,OnePlus 12,Electronics,1,59999,10,2025-06-18,Credit Card,Paid,Returned,2
+206,C022,Simran Kaur,Amritsar,Punjab,Cotton Kurti,Fashion,,1499,0,2025-06-08,Credit Card,Paid,Shipped,4
+207,C025,Yash Shah,Vadodara,Gujarat,Philips Air Fryer,Home & Kitchen,1,6999,101,2025-03-21,UPI,Paid,Processing,5
+208,C004,Ananya Gupta,Mumbai,Maharashtra,Milton Water Bottle,Home & Kitchen,3,899,20,2025-09-27,UPI,Paid,Processing,5
+209,C020,Riya Das,Bhubaneswar,Odisha,Dell Inspiron,Electronics,2,62999,5,2025-04-03,Wallet,Paid,Returned,5
+210,C006,Neha Joshi,Pune,Maharashtra,Prestige Mixer,Home & Kitchen,1,3499,10,2025-05-02,Net Banking,Pending,Returned,3
+211,C024,Nisha Thakur,Dehradun,Uttarakhand,Prestige Mixer,Home & Kitchen,1,3499,5,2025-08-29,Credit Card,Paid,Processing,5
+212,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Prestige Mixer,Home & Kitchen,2,3499,5,2025-07-15,Cash on Delivery,Paid,Returned,4
+213,C006,Neha Joshi,Pune,Maharashtra,Boat Earbuds,Electronics,3,1999,5,2025-05-09,UPI,Paid,Cancelled,5
+214,C018,Tanya Roy,Kolkata,West Bengal,HP Laptop 15,Electronics,3,54999,10,2025-03-05,Debit Card,Paid,Delivered,5
+215,C009,Amit Kumar,Patna,Bihar,Prestige Mixer,Home & Kitchen,4,3499,5,2025-08-12,UPI,Refunded,Shipped,5
+216,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Puma Backpack,Fashion,5,2499,10,2025-07-22,Cash on Delivery,Paid,Processing,3
+217,C003,Rahul Singh,Lucknow,Uttar Pradesh,Puma Backpack,Fashion,1,2499,5,2025-02-20,Wallet,Paid,Processing,5
+218,C005,Vikram Mehta,Ahmedabad,Gujarat,Samsung Galaxy S24,Electronics,1,74999,20,2025-12-23,Credit Card,Pending,Cancelled,4
+219,C001,Aarav Sharma,Jaipur,Rajasthan,OnePlus 12,Electronics,1,59999,5,2025-03-18,Cash on Delivery,Refunded,Returned,4
+220,C004,Ananya Gupta,Mumbai,Maharashtra,Adidas T-Shirt,Fashion,1,1999,0,2025-05-03,Net Banking,Refunded,Returned,4
+221,C004,Ananya Gupta,Mumbai,Maharashtra,Philips Air Fryer,Home & Kitchen,2,6999,0,2025-09-21,Cash on Delivery,Pending,Shipped,5
+222,C010,Pooja Jain,,Madhya Pradesh,Cotton Kurti,Fashion,1,1499,10,2025-10-20,Net Banking,Paid,Shipped,5
+223,C003,Rahul Singh,Lucknow,Uttar Pradesh,Milton Water Bottle,Home & Kitchen,0,899,0,2025-09-27,Cash on Delivery,Paid,Returned,5
+224,C017,Sahil Khan,Bhopal,Madhya Pradesh,IKEA Study Lamp,Home & Kitchen,1,1299,25,2025-01-23,Wallet,Paid,Cancelled,6
+225,C009,Amit Kumar,Patna,Bihar,iPhone 15,Electronics,1,69999,0,2025-05-04,Wallet,Pending,Delivered,5
+226,C024,Nisha Thakur,Dehradun,Uttarakhand,Levi's Jeans,Fashion,1,3499,10,2025-06-23,Wallet,Paid,Shipped,5
+227,C022,Simran Kaur,Amritsar,Punjab,Prestige Mixer,Home & Kitchen,0,3499,10,2025-04-04,Credit Card,Paid,Delivered,5
+228,C015,Nitin Saini,Jaipur,Rajasthan,Samsung Galaxy S24,Electronics,1,74999,0,2025-04-13,UPI,Paid,Processing,
+229,C017,Sahil Khan,Bhopal,Madhya Pradesh,Woodland Shoes,Fashion,0,5999,10,2025-05-10,UPI,,Shipped,4
+230,C028,Sakshi Rawat,Jaipur,Rajasthan,Samsung Galaxy S24,Electronics,4,74999,10,2025-03-05,Debit Card,Paid,Cancelled,5
+231,C024,Nisha Thakur,Dehradun,Uttarakhand,Prestige Mixer,Home & Kitchen,4,3499,10,2025-04-06,Net Banking,Paid,Cancelled,4
+232,C026,Komal Gupta,Nagpur,Maharashtra,Milton Water Bottle,Home & Kitchen,1,899,0,2025-08-06,UPI,Paid,Cancelled,5
+233,C027,Aditya Bose,Kolkata,West Bengal,Sony Headphones,Electronics,2,7999,10,2025-02-10,Debit Card,Paid,Processing,4
+234,C020,Riya Das,Bhubaneswar,Odisha,Cotton Kurti,Fashion,1,1499,10,2025-08-17,UPI,Paid,Processing,5
+235,C014,Kavya Reddy,Hyderabad,Telangana,Nike Running Shoes,Fashion,2,4999,20,2025-01-30,UPI,Paid,Cancelled,4
+236,C026,Komal Gupta,Nagpur,Maharashtra,Wildcraft Duffle Bag,Travel,1,2999,0,2025-11-08,Wallet,Failed,Cancelled,1
+237,C003,Rahul Singh,Lucknow,Uttar Pradesh,Mi Smart TV,Electronics,3,32999,10,2025-07-16,Cash on Delivery,Paid,Delivered,5
+238,C022,Simran Kaur,Amritsar,Punjab,Prestige Mixer,Home & Kitchen,5,3499,10,2025-02-09,Cash on Delivery,Failed,Shipped,4
+239,C013,Manish Patel,Surat,Gujarat,Levi's Jeans,Fashion,2,3499,5,2025-02-28,UPI,Paid,Shipped,4
+240,C013,Manish Patel,Surat,Gujarat,IKEA Study Lamp,Home & Kitchen,1,1299,20,2025-12-27,Net Banking,Failed,Shipped,0
+241,C010,Pooja Jain,Indore,Madhya Pradesh,Philips Air Fryer,Home & Kitchen,1,6999,5,2025-02-07,Net Banking,Paid,Shipped,5
+242,C015,Nitin Saini,Jaipur,Rajasthan,OnePlus 12,Electronics,3,59999,30,2025-06-13,Wallet,Refunded,Processing,5
+243,C018,Tanya Roy,Kolkata,West Bengal,IKEA Study Lamp,Home & Kitchen,1,1299,5,2025-03-22,Wallet,Pending,Shipped,5
+244,C017,Sahil Khan,Bhopal,Madhya Pradesh,Mi Smart TV,Electronics,1,32999,5,2025-03-13,Credit Card,Paid,Cancelled,1
+245,C018,Tanya Roy,Kolkata,West Bengal,Wakefit Pillow,Home & Kitchen,1,999,20,2025-10-10,Credit Card,Paid,Returned,5
+246,C003,Rahul Singh,Lucknow,Uttar Pradesh,Adidas T-Shirt,Fashion,1,1999,15,2025-09-03,Cash on Delivery,Paid,Cancelled,5
+247,C027,Aditya Bose,Kolkata,West Bengal,Wakefit Pillow,Home & Kitchen,1,999,55,2025-11-25,UPI,Pending,Cancelled,4
+248,C017,Sahil Khan,Bhopal,Madhya Pradesh,Puma Backpack,Fashion,1,2499,20,2025-10-10,Wallet,Refunded,Returned,3
+249,C005,Vikram Mehta,Ahmedabad,Gujarat,Cotton Kurti,Fashion,2,1499,20,2025-03-05,Cash on Delivery,Paid,Shipped,4
+250,C006,Neha Joshi,Pune,Maharashtra,Levi's Jeans,Fashion,5,3499,5,2025-09-23,Debit Card,Refunded,Delivered,3
+251,C021,Arjun Rao,Chennai,Tamil Nadu,IKEA Study Lamp,Home & Kitchen,1,1299,15,2025-11-11,Cash on Delivery,Paid,Delivered,4
+252,C006,Neha Joshi,Pune,Maharashtra,Wakefit Pillow,Home & Kitchen,5,999,5,2025-12-04,Cash on Delivery,Paid,Returned,4
+253,C030,Divya Iyer,Coimbatore,Tamil Nadu,Wakefit Pillow,Home & Kitchen,1,999,20,2025-02-11,UPI,,Returned,3
+254,C007,Rohan Yadav,Gurugram,Haryana,Wakefit Pillow,Home & Kitchen,1,999,15,2025-09-12,Wallet,Paid,Returned,4
+255,C010,Pooja Jain,Indore,Madhya Pradesh,Philips Air Fryer,Home & Kitchen,1,6999,20,2025-07-27,Debit Card,Paid,Cancelled,2
+256,C002,Priya Verma,Delhi,Delhi,Sony Headphones,Electronics,2,7999,10,2025-04-15,Debit Card,Refunded,Returned,3
+257,C028,Sakshi Rawat,Jaipur,Rajasthan,Levi's Jeans,Fashion,3,3499,20,2025-07-24,Credit Card,Failed,Processing,4
+258,C004,Ananya Gupta,Mumbai,Maharashtra,Levi's Jeans,Fashion,1,3499,0,2025-08-19,Credit Card,Pending,Shipped,2
+259,C010,Pooja Jain,Indore,Madhya Pradesh,Woodland Shoes,Fashion,4,5999,10,2025-03-23,Debit Card,Failed,Returned,5
+260,C007,Rohan Yadav,Gurugram,Haryana,Sony Headphones,Electronics,2,7999,10,2025-09-13,Debit Card,Paid,Cancelled,1
+261,C013,Manish Patel,Surat,Gujarat,Milton Water Bottle,Home & Kitchen,2,899,5,2025-10-26,Debit Card,Pending,Delivered,2
+262,C016,Meera Nair,Kochi,Kerala,American Tourister Bag,Travel,4,4999,15,2025-08-29,Debit Card,Paid,Returned,1
+263,C004,Ananya Gupta,Mumbai,Maharashtra,Cotton Kurti,Fashion,1,1499,5,2025-07-07,Net Banking,Refunded,Processing,2
+264,C002,Priya Verma,Delhi,Delhi,Wakefit Pillow,Home & Kitchen,2,999,10,2025-05-28,UPI,Paid,Cancelled,4
+265,C025,Yash Shah,Vadodara,Gujarat,IKEA Study Lamp,Home & Kitchen,1,1299,-5,2025-12-15,Cash on Delivery,Paid,Delivered,3
+266,C004,Ananya Gupta,Mumbai,Maharashtra,Woodland Shoes,Fashion,1,5999,-5,2025-10-13,Debit Card,Pending,Shipped,3
+267,C017,Sahil Khan,Bhopal,Madhya Pradesh,Woodland Shoes,Fashion,2,5999,0,2025-03-12,Wallet,Failed,Processing,5
+268,C017,Sahil Khan,Bhopal,Madhya Pradesh,Prestige Mixer,Home & Kitchen,1,3499,25,2025-03-13,Debit Card,Pending,Returned,4
+269,C013,Manish Patel,Surat,Gujarat,American Tourister Bag,Travel,3,4999,5,2025-06-22,Cash on Delivery,Paid,Returned,4
+270,C023,Mohit Bansal,Noida,Uttar Pradesh,Wakefit Pillow,Home & Kitchen,1,999,20,2025-07-08,Debit Card,Paid,Delivered,6
+271,C019,,Varanasi,Uttar Pradesh,Adidas T-Shirt,Fashion,3,1999,15,2025-12-19,Wallet,Paid,Delivered,5
+272,C009,Amit Kumar,Patna,Bihar,Safari Trolley,Travel,3,6499,20,2025-10-23,Credit Card,Paid,Delivered,4
+273,C006,Neha Joshi,Pune,Maharashtra,Milton Water Bottle,Home & Kitchen,2,899,15,2025-07-14,Credit Card,Pending,Shipped,1
+274,C023,Mohit Bansal,Noida,Uttar Pradesh,HP Laptop 15,Electronics,1,54999,10,2025-08-03,Credit Card,Refunded,Cancelled,5
+275,C014,Kavya Reddy,Hyderabad,Telangana,Milton Water Bottle,Home & Kitchen,3,899,25,2025-02-01,Wallet,,Shipped,4
+276,C018,Tanya Roy,Kolkata,West Bengal,Levi's Jeans,Fashion,-1,3499,10,2025-07-12,Debit Card,Paid,Shipped,4
+277,C018,Tanya Roy,Kolkata,West Bengal,Levi's Jeans,Fashion,2,3499,15,2025-12-15,Wallet,Refunded,Processing,5
+278,C007,Rohan Yadav,Gurugram,Haryana,Mi Smart TV,Electronics,1,32999,5,2025-06-02,Debit Card,Paid,Shipped,5
+279,C016,Meera Nair,Kochi,Kerala,Levi's Jeans,Fashion,2,3499,15,2025-05-21,Debit Card,Paid,Delivered,4
+280,C018,Tanya Roy,Kolkata,West Bengal,Woodland Shoes,Fashion,4,5999,10,2025-06-26,Credit Card,Paid,Processing,1
+281,C023,Mohit Bansal,Noida,Uttar Pradesh,OnePlus 12,Electronics,1,59999,10,2025-05-12,Wallet,Paid,Cancelled,3
+282,C027,Aditya Bose,Kolkata,West Bengal,IKEA Study Lamp,Home & Kitchen,1,1299,15,2025-05-20,Credit Card,Paid,Delivered,5
+283,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Mi Smart TV,Electronics,1,32999,15,2025-09-29,Credit Card,Pending,Shipped,2
+284,C014,Kavya Reddy,Hyderabad,Telangana,Levi's Jeans,Fashion,3,3499,0,2025-03-12,UPI,Pending,Returned,
+285,C006,Neha Joshi,Pune,Maharashtra,Cotton Kurti,Fashion,2,1499,25,2025-09-01,Net Banking,Failed,Shipped,5
+286,C010,Pooja Jain,Indore,Madhya Pradesh,Levi's Jeans,Fashion,1,3499,0,2025-02-15,Wallet,Pending,Returned,3
+287,C024,Nisha Thakur,Dehradun,Uttarakhand,Samsung Galaxy S24,Electronics,4,74999,5,2025-04-01,UPI,Pending,Cancelled,5
+288,C006,Neha Joshi,Pune,Maharashtra,Adidas T-Shirt,Fashion,4,1999,0,2025-10-18,Cash on Delivery,,Delivered,
+289,C011,Karan Malhotra,Chandigarh,Chandigarh,Adidas T-Shirt,Fashion,2,1999,15,2025-09-26,Net Banking,Pending,Shipped,5
+290,C015,Nitin Saini,Jaipur,Rajasthan,Nike Running Shoes,Fashion,1,4999,0,2025-03-25,Wallet,Paid,Cancelled,5
+291,C023,Mohit Bansal,Noida,Uttar Pradesh,Sony Headphones,Electronics,1,7999,10,2025-06-01,cash on delivery,Paid,Shipped,3
+292,C028,Sakshi Rawat,Jaipur,Rajasthan,Safari Trolley,Travel,4,6499,20,2025-09-21,Debit Card,Pending,Delivered,4
+293,C004,Ananya Gupta,Mumbai,Maharashtra,Sony Headphones,Electronics,0,7999,10,2025-05-08,UPI,Paid,Processing,4
+294,C015,Nitin Saini,Jaipur,Rajasthan,Nike Running Shoes,Fashion,5,4999,5,2025-10-21,UPI,Pending,Processing,5
+295,C023,Mohit Bansal,Noida,Uttar Pradesh,Mi Smart TV,Electronics,1,32999,0,2025-06-07,Credit Card,Paid,Cancelled,5
+296,C030,Divya Iyer,Coimbatore,Tamil Nadu,Adidas T-Shirt,Fashion,2,1999,15,2025-06-01,Debit Card,Paid,Returned,3
+297,C005,Vikram Mehta,Ahmedabad,Gujarat,Philips Air Fryer,Home & Kitchen,1,6999,20,2025-11-07,Debit Card,Pending,Cancelled,5
+298,C030,Divya Iyer,Coimbatore,Tamil Nadu,Philips Air Fryer,Home & Kitchen,3,6999,20,2025-04-22,Credit Card,Paid,Returned,5
+299,C003,Rahul Singh,Lucknow,Uttar Pradesh,Milton Water Bottle,Home & Kitchen,2,899,15,2025-02-09,Cash on Delivery,Refunded,Delivered,2
+299,C003,Rahul Singh,Lucknow,Uttar Pradesh,Milton Water Bottle,Home & Kitchen,2,899,15,2025-02-09,Cash on Delivery,Refunded,Delivered,2
+301,C022,Simran Kaur,Amritsar,Punjab,Boat Earbuds,Electronics,3,1999,10,2025-09-19,Net Banking,,Delivered,4
+302,C017,Sahil Khan,Bhopal,Madhya Pradesh,Cotton Kurti,Fashion,2,1499,0,2025-08-25,Wallet,Paid,Processing,5
+303,C013,Manish Patel,Surat,Gujarat,Nike Running Shoes,Fashion,3,4999,20,2025-10-24,UPI,Pending,Delivered,4
+304,C023,Mohit Bansal,Noida,Uttar Pradesh,OnePlus 12,Electronics,2,59999,0,2025-02-05,Net Banking,Paid,Delivered,4
+305,C006,Neha Joshi,Pune,Maharashtra,Dell Inspiron,Electronics,3,62999,55,2025-11-27,Net Banking,Refunded,Processing,0
+306,C013,Manish Patel,Surat,Gujarat,Prestige Mixer,Home & Kitchen,4,3499,25,2025-07-12,UPI,Refunded,Returned,3
+307,C028,Sakshi Rawat,Jaipur,Rajasthan,Puma Backpack,Fashion,1,2499,101,2025-07-21,Cash on Delivery,Refunded,Shipped,5
+308,C008,Sneha Agarwal,Kolkata,West Bengal,iPhone 15,Electronics,3,69999,55,2025-08-26,Wallet,Paid,Returned,4
+309,C013,Manish Patel,Surat,Gujarat,Mi Smart TV,Electronics,1,32999,10,2025-05-22,Credit Card,Paid,Delivered,1
+310,C022,Simran Kaur,Amritsar,Punjab,Cotton Kurti,Fashion,2,1499,30,2025-01-09,Credit Card,Paid,Shipped,2
+311,C020,Riya Das,Bhubaneswar,Odisha,Samsung Galaxy S24,Electronics,2,74999,15,2025-01-25,Credit Card,,Delivered,4
+312,C008,Sneha Agarwal,Kolkata,West Bengal,IKEA Study Lamp,Home & Kitchen,1,1299,20,2025-01-29,Credit Card,Paid,Returned,0
+313,C008,Sneha Agarwal,Kolkata,West Bengal,Wakefit Pillow,Home & Kitchen,1,999,15,2025-12-11,Debit Card,Paid,Shipped,4
+314,C005,Vikram Mehta,Ahmedabad,Gujarat,Wildcraft Duffle Bag,Travel,2,2999,10,2025-05-21,UPI,Pending,Returned,
+315,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Sony Headphones,Electronics,2,7999,10,2025-09-11,UPI,Paid,Processing,
+316,C022,Simran Kaur,Amritsar,Punjab,Woodland Shoes,Fashion,3,5999,5,2025-08-02,Net Banking,Paid,Shipped,4
+317,C006,Neha Joshi,Pune,Maharashtra,IKEA Study Lamp,Home & Kitchen,2,1299,20,2025-06-03,Wallet,Paid,Shipped,5
+318,C030,Divya Iyer,Coimbatore,Tamil Nadu,Samsung Galaxy S24,Electronics,2,74999,30,2025-10-13,,Failed,Shipped,4
+319,C009,Amit Kumar,Patna,Bihar,Boat Earbuds,Electronics,1,1999,0,2025-08-19,Debit Card,Paid,Delivered,4
+320,C027,Aditya Bose,Kolkata,West Bengal,Boat Earbuds,Electronics,1,1999,10,2025-11-06,Cash on Delivery,Refunded,Delivered,5
+321,C007,Rohan Yadav,Gurugram,Haryana,Wakefit Pillow,Home & Kitchen,3,999,15,2025-09-03,Credit Card,Paid,Processing,4
+322,C030,Divya Iyer,Coimbatore,Tamil Nadu,iPhone 15,Electronics,1,69999,5,2025-03-02,Wallet,Paid,Cancelled,5
+323,C023,Mohit Bansal,Noida,Uttar Pradesh,American Tourister Bag,Travel,3,4999,10,2025-05-03,Cash on Delivery,Paid,Processing,5
+324,C013,Manish Patel,Surat,Gujarat,Prestige Mixer,Home & Kitchen,2,3499,10,2025-05-14,Debit Card,Pending,Returned,5
+325,C015,Nitin Saini,Jaipur,Rajasthan,HP Laptop 15,Electronics,3,54999,15,2025-06-13,Credit Card,Paid,Processing,4
+326,C002,Priya Verma,Delhi,Delhi,Wakefit Pillow,Home & Kitchen,4,999,15,2025-01-09,Debit Card,Paid,Returned,
+327,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Cotton Kurti,Fashion,1,1499,5,2025-04-28,Net Banking,Pending,Returned,5
+328,C016,Meera Nair,Kochi,Kerala,IKEA Study Lamp,Home & Kitchen,2,1299,15,2025-05-12,Net Banking,Paid,Cancelled,4
+329,C024,Nisha Thakur,Dehradun,Uttarakhand,Puma Backpack,Fashion,1,2499,15,2025-09-08,Credit Card,Paid,Returned,0
+330,C002,Priya Verma,Delhi,Delhi,Milton Water Bottle,Home & Kitchen,1,899,20,2025-12-09,UPI,Pending,Delivered,4
+331,C027,Aditya Bose,Kolkata,West Bengal,Safari Trolley,Travel,1,6499,15,2025-01-05,Credit Card,Pending,Returned,4
+332,C002,Priya Verma,Delhi,Delhi,American Tourister Bag,Travel,2,4999,25,2025-09-05,Wallet,Paid,Cancelled,1
+333,C018,Tanya Roy,Kolkata,West Bengal,IKEA Study Lamp,Home & Kitchen,1,1299,0,2025-05-21,Cash on Delivery,Paid,Processing,1
+334,C027,Aditya Bose,Kolkata,West Bengal,Wildcraft Duffle Bag,Travel,2,2999,,2025-04-02,UPI,Paid,Delivered,4
+335,C008,Sneha Agarwal,Kolkata,West Bengal,Boat Earbuds,Electronics,2,1999,5,2025-07-01,Debit Card,Pending,Cancelled,2
+336,C013,Manish Patel,Surat,Gujarat,Prestige Mixer,Home & Kitchen,2,3499,101,2025-04-26,Debit Card,,Delivered,5
+337,C028,Sakshi Rawat,Jaipur,Rajasthan,Safari Trolley,Travel,3,6499,0,2025-07-14,Net Banking,Paid,Returned,4
+338,C021,Arjun Rao,Chennai,Tamil Nadu,iPhone 15,Electronics,3,69999,0,2025-08-11,Wallet,Paid,Processing,4
+339,C028,Sakshi Rawat,Jaipur,Rajasthan,HP Laptop 15,Electronics,4,54999,25,2025-04-28,Credit Card,Paid,Returned,4
+340,C002,Priya Verma,Delhi,Delhi,OnePlus 12,Electronics,2,59999,5,2025-10-06,Cash on Delivery,Paid,Delivered,3
+341,C028,Sakshi Rawat,Jaipur,Rajasthan,Levi's Jeans,Fashion,1,3499,5,2025-03-15,Wallet,Pending,Cancelled,
+342,C010,Pooja Jain,Indore,Madhya Pradesh,Sony Headphones,Electronics,2,7999,15,2025-07-19,Wallet,Pending,Returned,4
+343,C025,Yash Shah,Vadodara,Gujarat,Dell Inspiron,Electronics,3,62999,15,2025-02-10,Cash on Delivery,Paid,Processing,2
+344,C014,Kavya Reddy,Hyderabad,Telangana,Mi Smart TV,Electronics,3,32999,10,2025-11-11,Cash on Delivery,Pending,Cancelled,
+345,C011,Karan Malhotra,Chandigarh,Chandigarh,iPhone 15,Electronics,2,69999,20,2025-08-19,Net Banking,Pending,Shipped,4
+346,C013,Manish Patel,Surat,Gujarat,Cotton Kurti,Fashion,1,1499,15,2025-07-14,UPI,Paid,Returned,4
+347,C008,Sneha Agarwal,Kolkata,West Bengal,OnePlus 12,Electronics,1,59999,5,2025-12-31,Wallet,Failed,Shipped,5
+348,C011,Karan Malhotra,Chandigarh,Chandigarh,Puma Backpack,Fashion,1,2499,0,2025-06-07,Net Banking,Paid,Processing,5
+349,C004,Ananya Gupta,Mumbai,Maharashtra,Dell Inspiron,Electronics,1,62999,10,2025-10-13,Cash on Delivery,Paid,Returned,4
+350,C001,Aarav Sharma,Jaipur,Rajasthan,OnePlus 12,Electronics,1,59999,0,2025-11-03,Debit Card,Refunded,Cancelled,1
+351,C014,Kavya Reddy,Hyderabad,Telangana,Woodland Shoes,Fashion,3,5999,15,2025-10-14,Credit Card,,Returned,4
+352,C022,Simran Kaur,Amritsar,Punjab,Woodland Shoes,Fashion,1,5999,5,2025-05-18,Net Banking,Paid,Shipped,2
+353,C014,Kavya Reddy,Hyderabad,Telangana,Nike Running Shoes,Fashion,2,4999,10,2025-02-09,Debit Card,Paid,Processing,
+354,C024,Nisha Thakur,Dehradun,Uttarakhand,Safari Trolley,Travel,2,6499,15,2025-08-23,UPI,Pending,Shipped,4
+355,C013,Manish Patel,Surat,Gujarat,Levi's Jeans,Fashion,3,3499,10,2025-06-18,Net Banking,Paid,Processing,4
+356,C027,Aditya Bose,Kolkata,West Bengal,Safari Trolley,Travel,0,6499,5,2025-06-14,Cash on Delivery,Paid,Shipped,4
+357,C006,Neha Joshi,Pune,Maharashtra,Woodland Shoes,Fashion,5,5999,5,2025-12-22,Wallet,Paid,Cancelled,
+358,C026,Komal Gupta,Nagpur,Maharashtra,Mi Smart TV,Electronics,1,32999,5,2025-07-21,Debit Card,Pending,Delivered,
+359,C007,Rohan Yadav,Gurugram,Haryana,Wakefit Pillow,Home & Kitchen,-1,999,5,2025-10-09,UPI,Pending,Cancelled,
+360,C007,Rohan Yadav,Gurugram,Haryana,Prestige Mixer,Home & Kitchen,3,3499,20,2025-02-05,Net Banking,Paid,Cancelled,3
+361,C010,Pooja Jain,Indore,Madhya Pradesh,Mi Smart TV,Electronics,1,32999,5,2025-08-05,Net Banking,Pending,Delivered,4
+362,C020,Riya Das,Bhubaneswar,Odisha,Philips Air Fryer,Home & Kitchen,2,6999,10,2025-12-21,Net Banking,Paid,Returned,1
+363,C012,Isha Kapoor,Bengaluru,Karnataka,IKEA Study Lamp,Home & Kitchen,2,1299,25,2025-02-25,Credit Card,Refunded,Processing,3
+364,C020,Riya Das,Bhubaneswar,Odisha,Samsung Galaxy S24,Electronics,2,74999,15,2025-11-28,Net Banking,Paid,Processing,
+365,C014,Kavya Reddy,Hyderabad,Telangana,HP Laptop 15,Electronics,1,54999,5,2025-09-19,Wallet,Paid,Returned,4
+366,C023,Mohit Bansal,Noida,Uttar Pradesh,Wakefit Pillow,Home & Kitchen,1,999,10,2025-08-26,Wallet,Failed,Returned,5
+367,C005,Vikram Mehta,Ahmedabad,Gujarat,Puma Backpack,Fashion,-1,2499,10,2025-06-01,Net Banking,Pending,DELIVERED,2
+368,C024,Nisha Thakur,Dehradun,Uttarakhand,Dell Inspiron,Electronics,1,62999,10,2025-04-16,Cash on Delivery,Paid,Cancelled,4
+369,C004,Ananya Gupta,Mumbai,Maharashtra,Prestige Mixer,Home & Kitchen,3,3499,10,2025-02-04,Debit Card,Paid,Delivered,5
+370,C004,Ananya Gupta,Mumbai,Maharashtra,iPhone 15,Electronics,3,69999,15,2025-12-13,Credit Card,Refunded,Shipped,4
+371,C018,Tanya Roy,Kolkata,West Bengal,Sony Headphones,Electronics,1,7999,10,2025-08-25,Credit Card,Refunded,Cancelled,5
+372,C006,Neha Joshi,Pune,Maharashtra,Safari Trolley,Travel,2,6499,10,2025-11-11,Credit Card,Pending,Cancelled,4
+373,C013,Manish Patel,Surat,Gujarat,iPhone 15,Electronics,3,69999,5,2025-12-27,UPI,Failed,Returned,2
+374,C028,Sakshi Rawat,Jaipur,Rajasthan,IKEA Study Lamp,Home & Kitchen,1,1299,10,2025-08-23,UPI,Paid,Processing,5
+375,C016,Meera Nair,Kochi,Kerala,Milton Water Bottle,Home & Kitchen,5,899,5,2025-07-18,Cash on Delivery,Pending,Cancelled,4
+376,C012,Isha Kapoor,Bengaluru,Karnataka,Puma Backpack,Fashion,3,2499,15,2025-12-11,Wallet,,Processing,5
+377,C019,Deepak Mishra,Varanasi,Uttar Pradesh,OnePlus 12,Electronics,2,59999,5,2025-05-03,Debit Card,Paid,Delivered,3
+378,C023,Mohit Bansal,Noida,Uttar Pradesh,Dell Inspiron,Electronics,2,62999,10,2025-03-12,Cash on Delivery,Paid,Cancelled,4
+379,C016,Meera Nair,Kochi,Kerala,Safari Trolley,Travel,2,6499,25,2025-03-30,Cash on Delivery,Paid,Shipped,4
+380,C005,Vikram Mehta,Ahmedabad,Gujarat,Sony Headphones,Electronics,1,7999,10,2025-01-28,Debit Card,Paid,Delivered,4
+381,C007,Rohan Yadav,Gurugram,Haryana,Woodland Shoes,Fashion,5,5999,10,2025-09-11,Net Banking,Refunded,Cancelled,4
+382,C027,Aditya Bose,Kolkata,West Bengal,Prestige Mixer,Home & Kitchen,2,3499,0,2025-01-16,Credit Card,Refunded,Processing,1
+383,C008,Sneha Agarwal,Kolkata,West Bengal,IKEA Study Lamp,Home & Kitchen,1,1299,20,2025-10-17,Wallet,Paid,Cancelled,4
+384,C004,Ananya Gupta,Mumbai,Maharashtra,Wakefit Pillow,Home & Kitchen,1,999,20,2025-07-07,Cash on Delivery,Paid,Delivered,5
+385,C015,Nitin Saini,Jaipur,Rajasthan,IKEA Study Lamp,Home & Kitchen,1,1299,10,2025-12-01,Credit Card,Refunded,Processing,5
+386,C002,Priya Verma,Delhi,Delhi,Prestige Mixer,Home & Kitchen,1,3499,20,2025-02-14,Net Banking,Paid,Delivered,5
+387,C008,Sneha Agarwal,Kolkata,West Bengal,Boat Earbuds,Electronics,3,1999,15,2025-06-29,Wallet,Pending,Returned,5
+388,C006,Neha Joshi,Pune,Maharashtra,American Tourister Bag,Travel,1,4999,5,2025-04-16,UPI,Failed,Returned,4
+389,C009,Amit Kumar,Patna,Bihar,American Tourister Bag,Travel,2,4999,10,2025-12-27,Debit Card,Paid,Processing,4
+390,C028,Sakshi Rawat,Jaipur,Rajasthan,Milton Water Bottle,Home & Kitchen,0,899,15,2025-02-18,Credit Card,Paid,Cancelled,5
+391,C009,Amit Kumar,Patna,Bihar,Safari Trolley,Travel,1,6499,20,2025-05-08,Credit Card,Pending,Processing,5
+392,C025,Yash Shah,Vadodara,Gujarat,Wildcraft Duffle Bag,Travel,1,2999,5,2025-11-20,Debit Card,Refunded,Cancelled,4
+393,C003,Rahul Singh,Lucknow,Uttar Pradesh,Safari Trolley,Travel,3,6499,20,2025-07-26,Cash on Delivery,Paid,Processing,5
+394,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Puma Backpack,Fashion,2,2499,10,2025-10-25,UPI,Paid,Delivered,5
+395,C015,Nitin Saini,Jaipur,Rajasthan,Safari Trolley,Travel,2,6499,10,2025-02-02,Cash on Delivery,,Cancelled,3
+396,C014,Kavya Reddy,Hyderabad,Telangana,Boat Earbuds,Electronics,2,1999,10,2025-05-26,Debit Card,Refunded,Returned,4
+397,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Philips Air Fryer,Home & Kitchen,3,6999,25,2025-01-25,UPI,Failed,Delivered,5
+398,C027,Aditya Bose,Kolkata,West Bengal,Prestige Mixer,Home & Kitchen,1,3499,25,2025-03-22,Net Banking,Paid,Cancelled,1
+399,C014,Kavya Reddy,Hyderabad,Telangana,Boat Earbuds,Electronics,-1,1999,25,2025-11-29,Debit Card,,Shipped,5
+400,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Nike Running Shoes,Fashion,1,4999,10,2025-02-12,Debit Card,,Shipped,2
+401,C021,Arjun Rao,Chennai,Tamil Nadu,Adidas T-Shirt,Fashion,3,1999,20,2025-08-08,Wallet,Paid,Delivered,5
+402,C001,Aarav Sharma,Jaipur,Rajasthan,Boat Earbuds,Electronics,2,1999,5,2025-04-26,Cash on Delivery,Paid,Cancelled,1
+403,C023,Mohit Bansal,Noida,Uttar Pradesh,Levi's Jeans,Fashion,3,3499,-5,2025-08-05,Wallet,Paid,Shipped,4
+404,C008,Sneha Agarwal,Kolkata,West Bengal,Woodland Shoes,Fashion,1,5999,20,2025-02-22,Debit Card,Pending,Processing,5
+405,C005,Vikram Mehta,Ahmedabad,Gujarat,Woodland Shoes,Fashion,3,5999,20,2025-03-10,Wallet,Failed,Shipped,2
+406,C019,Deepak Mishra,Varanasi,Uttar Pradesh,iPhone 15,Electronics,2,69999,5,2025-06-29,Wallet,Paid,Shipped,5
+407,C005,Vikram Mehta,Ahmedabad,Gujarat,Cotton Kurti,Fashion,2,1499,10,2025-04-22,UPI,Pending,Delivered,3
+408,C004,Ananya Gupta,Mumbai,Maharashtra,Wakefit Pillow,Home & Kitchen,3,999,10,2025-08-08,Debit Card,Refunded,Shipped,3
+409,C021,Arjun Rao,Chennai,Tamil Nadu,OnePlus 12,Electronics,1,59999,15,2025-11-08,Debit Card,Pending,Delivered,5
+410,C022,Simran Kaur,Amritsar,Punjab,Adidas T-Shirt,Fashion,1,1999,15,2025-04-07,Wallet,Refunded,Cancelled,4
+411,C002,Priya Verma,Delhi,Delhi,Mi Smart TV,Electronics,2,32999,0,2025-09-13,Wallet,Pending,Returned,2
+412,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,iPhone 15,electronics,0,69999,25,2025-03-09,Net Banking,Paid,Returned,4
+413,C018,Tanya Roy,Kolkata,West Bengal,Wildcraft Duffle Bag,Travel,1,2999,10,2025-02-07,UPI,Pending,Returned,2
+414,C009,Amit Kumar,Patna,Bihar,Boat Earbuds,Electronics,1,1999,0,2025-07-23,Cash on Delivery,Paid,Processing,5
+415,C017,Sahil Khan,Bhopal,Madhya Pradesh,Cotton Kurti,Fashion,2,1499,10,2025-11-24,Cash on Delivery,Paid,Returned,5
+416,C009,Amit Kumar,Patna,Bihar,OnePlus 12,Electronics,1,59999,10,2025-04-15,Credit Card,Pending,Returned,4
+417,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Safari Trolley,Travel,3,6499,15,2025-11-26,UPI,,Processing,5
+418,C024,Nisha Thakur,Dehradun,Uttarakhand,Mi Smart TV,Electronics,1,32999,0,2025-08-11,UPI,Pending,Cancelled,5
+419,C002,Priya Verma,Delhi,Delhi,Adidas T-Shirt,Fashion,2,1999,15,2025-03-31,UPI,,Delivered,5
+420,C023,Mohit Bansal,Noida,Uttar Pradesh,iPhone 15,Electronics,1,69999,30,2025-09-25,Cash on Delivery,Paid,Processing,3
+421,C005,Vikram Mehta,Ahmedabad,Gujarat,Nike Running Shoes,Fashion,3,4999,0,2025-01-16,Debit Card,Pending,Cancelled,3
+422,C003,Rahul Singh,Lucknow,Uttar Pradesh,Nike Running Shoes,Fashion,3,4999,15,2025-02-09,Net Banking,Paid,Cancelled,4
+423,C002,Priya Verma,Delhi,Delhi,Philips Air Fryer,Home & Kitchen,4,6999,5,2025-03-22,Debit Card,Paid,Delivered,5
+424,C022,Simran Kaur,Amritsar,Punjab,HP Laptop 15,Electronics,1,54999,10,2025-01-23,UPI,Paid,Shipped,2
+425,C012,Isha Kapoor,Bengaluru,Karnataka,Woodland Shoes,Fashion,4,5999,5,2025-01-19,Cash on Delivery,Paid,Cancelled,3
+426,C008,Sneha Agarwal,Kolkata,West Bengal,Cotton Kurti,Fashion,4,1499,10,2025-02-09,Cash on Delivery,Pending,Processing,2
+427,C022,Simran Kaur,Amritsar,Punjab,Samsung Galaxy S24,Electronics,1,74999,20,2025-01-24,Net Banking,Pending,Delivered,5
+428,C028,Sakshi Rawat,Jaipur,Rajasthan,Adidas T-Shirt,Fashion,3,1999,5,2025-02-14,Cash on Delivery,Paid,Cancelled,1
+429,C007,Rohan Yadav,Gurugram,Haryana,Adidas T-Shirt,Fashion,2,1999,5,2025-11-15,Credit Card,Failed,Cancelled,4
+430,C016,Meera Nair,Kochi,Kerala,Boat Earbuds,Electronics,3,1999,10,2025-05-06,Credit Card,Refunded,Delivered,
+431,C001,Aarav Sharma,Jaipur,Rajasthan,Mi Smart TV,Electronics,2,32999,15,2025-12-22,UPI,Paid,Processing,1
+432,C022,Simran Kaur,Amritsar,Punjab,Woodland Shoes,Fashion,3,5999,15,2025-02-23,Credit Card,Refunded,Returned,6
+433,C014,Kavya Reddy,Hyderabad,Telangana,Philips Air Fryer,Home & Kitchen,5,6999,55,2025-03-14,Wallet,Failed,Processing,2
+434,C030,Divya Iyer,Coimbatore,Tamil Nadu,Mi Smart TV,Electronics,4,32999,10,2025-12-25,Debit Card,Paid,Cancelled,
+435,C003,Rahul Singh,Lucknow,Uttar Pradesh,Wakefit Pillow,Home & Kitchen,1,999,5,2025-07-21,UPI,Paid,Returned,4
+436,C014,Kavya Reddy,Hyderabad,Telangana,Wildcraft Duffle Bag,Travel,5,2999,5,2025-05-14,Debit Card,Paid,Cancelled,5
+437,C024,Nisha Thakur,Dehradun,Uttarakhand,Levi's Jeans,Fashion,1,3499,5,2025-02-08,Credit Card,Pending,Shipped,5
+438,C019,Deepak Mishra,Varanasi,Uttar Pradesh,HP Laptop 15,Electronics,1,54999,5,2025-08-27,Debit Card,Paid,Cancelled,2
+439,C012,Isha Kapoor,Bengaluru,Karnataka,Boat Earbuds,Electronics,2,1999,10,2025-03-03,UPI,Failed,Shipped,5
+440,C010,Pooja Jain,Indore,Madhya Pradesh,American Tourister Bag,Travel,1,4999,20,2025-06-17,Credit Card,Paid,Delivered,5
+441,C012,Isha Kapoor,Bengaluru,Karnataka,Woodland Shoes,Fashion,2,5999,15,2025-05-14,Credit Card,Paid,Delivered,
+442,C028,Sakshi Rawat,Jaipur,Rajasthan,Prestige Mixer,Home & Kitchen,2,3499,10,2025-02-18,Net Banking,Paid,Delivered,5
+443,C005,Vikram Mehta,Ahmedabad,Gujarat,HP Laptop 15,Electronics,1,54999,20,2025-04-24,Credit Card,Refunded,Shipped,5
+444,C012,Isha Kapoor,Bengaluru,Karnataka,Wildcraft Duffle Bag,Travel,2,2999,15,2025-10-26,Cash on Delivery,Pending,Processing,5
+445,C003,Rahul Singh,Lucknow,Uttar Pradesh,iPhone 15,Electronics,-1,69999,5,,Net Banking,Paid,Shipped,2
+446,C028,Sakshi Rawat,Jaipur,Rajasthan,Levi's Jeans,Fashion,1,3499,30,2025-01-26,Credit Card,Failed,Returned,4
+447,C024,Nisha Thakur,Dehradun,Uttarakhand,Woodland Shoes,Fashion,2,5999,10,2025-08-07,Credit Card,Paid,Processing,3
+448,C006,Neha Joshi,Pune,Maharashtra,Nike Running Shoes,Fashion,1,4999,25,2025-01-18,Cash on Delivery,Refunded,Returned,5
+449,C021,Arjun Rao,Chennai,Tamil Nadu,Adidas T-Shirt,Fashion,2,1999,25,2025-09-03,UPI,Paid,Delivered,3
+450,C005,Vikram Mehta,Ahmedabad,Gujarat,Cotton Kurti,Fashion,1,1499,25,2025-09-27,Credit Card,Refunded,Returned,5
+451,C013,Manish Patel,Surat,Gujarat,Puma Backpack,Fashion,2,2499,20,2025-06-26,Cash on Delivery,Failed,Returned,4
+452,C009,Amit Kumar,Patna,Bihar,Sony Headphones,Electronics,1,7999,15,2025-01-16,Debit Card,Refunded,Delivered,5
+453,C016,Meera Nair,Kochi,Kerala,Milton Water Bottle,Home & Kitchen,1,899,15,2025-04-30,Credit Card,Failed,Delivered,3
+454,C008,Sneha Agarwal,Kolkata,West Bengal,Nike Running Shoes,Fashion,2,4999,20,2025-01-29,Credit Card,Pending,Returned,5
+455,C026,Komal Gupta,Nagpur,Maharashtra,Woodland Shoes,Fashion,1,5999,20,2025-03-30,Credit Card,Paid,Shipped,4
+456,C026,Komal Gupta,Nagpur,Maharashtra,Puma Backpack,Fashion,4,2499,0,2025-12-25,Debit Card,Failed,Returned,4
+457,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Boat Earbuds,Electronics,3,1999,20,2025-09-10,Cash on Delivery,Failed,Processing,3
+458,C002,Priya Verma,Delhi,Delhi,OnePlus 12,Electronics,1,59999,15,2025-01-11,Cash on Delivery,Paid,Cancelled,1
+459,C030,Divya Iyer,Coimbatore,Tamil Nadu,American Tourister Bag,Travel,1,4999,5,2025-04-01,Debit Card,Pending,Delivered,1
+460,C019,Deepak Mishra,Varanasi,Uttar Pradesh,Dell Inspiron,Electronics,3,62999,20,2025-07-06,UPI,Refunded,Processing,5
+461,C022,Simran Kaur,Amritsar,Punjab,Woodland Shoes,Fashion,2,5999,10,2025-06-15,Credit Card,Paid,Shipped,5
+462,C014,Kavya Reddy,Hyderabad,Telangana,Safari Trolley,Travel,5,6499,15,2025-03-31,Wallet,,Returned,5
+463,C030,Divya Iyer,Coimbatore,Tamil Nadu,American Tourister Bag,Travel,3,4999,5,2025-10-29,Credit Card,,Cancelled,4
+464,C023,Mohit Bansal,Noida,Uttar Pradesh,Adidas T-Shirt,Fashion,1,1999,15,2025-12-26,Cash on Delivery,Paid,Cancelled,5
+465,C025,Yash Shah,Vadodara,Gujarat,Wakefit Pillow,Home & Kitchen,1,999,15,2025-11-10,Credit Card,Pending,Returned,2
+466,C016,Meera Nair,Kochi,Kerala,Dell Inspiron,Electronics,1,62999,0,2025-06-27,Debit Card,Paid,Shipped,5
+467,C003,Rahul Singh,Lucknow,Uttar Pradesh,Wildcraft Duffle Bag,Travel,2,2999,25,2025-08-17,UPI,Paid,Processing,3
+468,C023,Mohit Bansal,Noida,Uttar Pradesh,OnePlus 12,Electronics,1,59999,20,2025-01-01,UPI,Pending,Cancelled,4
+469,C014,Kavya Reddy,Hyderabad,Telangana,Sony Headphones,Electronics,4,7999,10,2025-07-13,Debit Card,Failed,Returned,4
+470,C027,Aditya Bose,Kolkata,West Bengal,Philips Air Fryer,Home & Kitchen,3,6999,15,2025-12-18,Credit Card,Refunded,Shipped,4
+471,C026,Komal Gupta,Nagpur,Maharashtra,Samsung Galaxy S24,Electronics,1,74999,5,2025-02-23,UPI,Refunded,Processing,3
+472,C013,Manish Patel,Surat,Gujarat,Sony Headphones,Electronics,3,7999,10,2025-02-17,Debit Card,Refunded,Returned,6
+473,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Philips Air Fryer,Home & Kitchen,3,6999,10,2025-12-01,Credit Card,Pending,Returned,5
+474,C006,Neha Joshi,Pune,Maharashtra,Samsung Galaxy S24,Electronics,1,74999,5,2025-04-08,Net Banking,Pending,Returned,5
+475,C024,Nisha Thakur,Dehradun,Uttarakhand,IKEA Study Lamp,Home & Kitchen,1,1299,5,2025-05-02,UPI,Failed,Delivered,4
+476,C018,Tanya Roy,Kolkata,West Bengal,Philips Air Fryer,Home & Kitchen,1,6999,10,2025-08-07,UPI,Paid,Processing,5
+477,C021,Arjun Rao,Chennai,Tamil Nadu,American Tourister Bag,Travel,2,4999,0,2025-04-16,Credit Card,Pending,Processing,
+478,C016,Meera Nair,Kochi,Kerala,HP Laptop 15,Electronics,1,54999,10,2025-09-08,Wallet,Failed,Processing,2
+479,C018,Tanya Roy,Kolkata,West Bengal,Woodland Shoes,Fashion,1,5999,25,2025-07-09,Credit Card,,Cancelled,2
+480,C015,Nitin Saini,Jaipur,Rajasthan,Prestige Mixer,Home & Kitchen,1,3499,20,2025-10-16,UPI,Paid,Shipped,5
+481,C022,Simran Kaur,Amritsar,Punjab,HP Laptop 15,Electronics,1,54999,10,2025-10-05,Net Banking,Paid,Returned,3
+482,C002,Priya Verma,Delhi,Delhi,Woodland Shoes,Fashion,3,5999,10,2025-10-02,Wallet,Pending,Cancelled,4
+483,C008,Sneha Agarwal,Kolkata,West Bengal,Philips Air Fryer,Home & Kitchen,1,6999,10,2025-01-18,Cash on Delivery,Paid,Returned,5
+484,C026,Komal Gupta,Nagpur,Maharashtra,Wakefit Pillow,Home & Kitchen,2,999,15,2025-03-03,Net Banking,Paid,Shipped,
+485,C006,Neha Joshi,Pune,Maharashtra,Boat Earbuds,Electronics,3,1999,0,2025-08-05,UPI,Paid,Cancelled,3
+486,C027,Aditya Bose,Kolkata,West Bengal,Safari Trolley,Travel,1,6499,15,2025-06-13,Wallet,Paid,Delivered,2
+487,C018,Tanya Roy,Kolkata,West Bengal,Woodland Shoes,Fashion,2,5999,20,2025-09-24,Net Banking,Paid,Delivered,5
+488,C020,Riya Das,Bhubaneswar,Odisha,Wakefit Pillow,Home & Kitchen,2,999,10,2025-08-01,Credit Card,Pending,Shipped,4
+489,C019,Deepak Mishra,Varanasi,Uttar Pradesh,HP Laptop 15,Electronics,4,54999,15,2025-02-21,Debit Card,Paid,Returned,5
+490,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Cotton Kurti,Fashion,1,1499,15,2025-10-20,Cash on Delivery,Pending,Cancelled,1
+491,C009,Amit Kumar,Patna,Bihar,Woodland Shoes,Fashion,1,5999,15,2025-12-22,Net Banking,Paid,Delivered,4
+492,C029,Harsh Vardhan,Kanpur,Uttar Pradesh,Levi's Jeans,Fashion,2,3499,0,2025-09-01,Debit Card,Paid,Processing,1
+493,C027,Aditya Bose,Kolkata,West Bengal,Adidas T-Shirt,Fashion,1,1999,20,2025-12-23,Wallet,Pending,Delivered,
+494,C008,Sneha Agarwal,Kolkata,West Bengal,Dell Inspiron,Electronics,1,62999,15,2025-06-14,Debit Card,Paid,Cancelled,5
+495,C003,Rahul Singh,Lucknow,Uttar Pradesh,Boat Earbuds,Electronics,2,1999,25,2025-07-28,Wallet,Paid,Cancelled,5
+496,C028,Sakshi Rawat,Jaipur,Rajasthan,Puma Backpack,Fashion,3,2499,10,2025-03-23,UPI,Paid,Processing,5
+497,C013,Manish Patel,Surat,Gujarat,Dell Inspiron,Electronics,3,62999,10,2025-10-19,UPI,Paid,Shipped,3
+498,C027,Aditya Bose,Kolkata,West Bengal,Boat Earbuds,Electronics,3,1999,5,2025-08-22,UPI,Refunded,Processing,5
+499,C009,Amit Kumar,Patna,Bihar,Puma Backpack,Fashion,3,2499,10,2025-11-22,UPI,Pending,Delivered,3
+500,C016,Meera Nair,Kochi,Kerala,American Tourister Bag,Travel,2,4999,30,2025-08-31,Cash on Delivery,Pending,Returned,4
